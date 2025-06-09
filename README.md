@@ -77,7 +77,7 @@ A complete data analysis project on BlinkIT's grocery sales using a raw dataset 
 ## 👨‍💻 Author
 
 - **Yassin Saleh**  
-- 📧 [your.email@example.com]  
+- 📧 [yassinahmedsaleh2004@gmail.com]  
 - 🌐 [GitHub: yassin-saleh](https://github.com/yassin-saleh)
 
 ---
