@@ -1,6 +1,6 @@
 # 🛒 BlinkIT Grocery Data Analysis Project
 
-A complete data analysis project on BlinkIT's grocery data using SQL, Power BI, and Excel/CSV. This project aims to extract business insights from real-world grocery purchase data.
+A complete data analysis project on BlinkIT's grocery sales using a raw dataset (CSV), SQL for data exploration, and Power BI for visualization. The goal is to extract valuable business insights and present them in a clear, visual manner.
 
 ---
 
@@ -8,64 +8,80 @@ A complete data analysis project on BlinkIT's grocery data using SQL, Power BI, 
 
 | File Name | Description |
 |-----------|-------------|
-| `BlinkIT Grocery Data cleaned.csv` | Cleaned and prepared dataset |
-| `Blinkit Analysis.sql` | SQL queries for data analysis |
-| `Blinkit.pbix` | Power BI dashboard and visualizations |
-| `Blinkit Analysis.pptx` | Presentation summarizing the findings |
-| `Dashboard.png` | Snapshot of the final dashboard |
+| `BlinkIT Grocery Data cleaned.csv` | Main raw dataset (exported from Excel/CSV) |
+| `Blinkit Analysis.sql` | SQL scripts to query and analyze the dataset |
+| `Blinkit.pbix` | Power BI report based on the dataset |
+| `Blinkit Analysis.pptx` | Presentation summarizing key findings |
+| `Dashboard.png` | Static image of the Power BI dashboard |
 
 ---
 
-## 🎯 Project Goals
+## 🎯 Project Objectives
 
-- Understand customer purchasing behavior  
-- Identify top-selling products  
-- Analyze sales trends over time  
-- Provide actionable visual insights for decision-making
+1. **Measure overall sales performance**  
+   - Calculate total and average sales to assess business revenue.
+
+2. **Evaluate customer satisfaction**  
+   - Analyze average product ratings to gauge customer feedback.
+
+3. **Track order volume and demand**  
+   - Count total number of orders to understand market activity.
+
+4. **Analyze sales by product attributes**  
+   - Group data by `Item_Fat_Content` and `Item_Type` to identify top-performing categories.
+
+5. **Understand regional sales patterns**  
+   - Compare sales by `Outlet_Location_Type`, `Outlet_Size`, and `Outlet_Type` to detect location-based trends.
+
+6. **Assess store age impact**  
+   - Study `Outlet_Establishment_Year` to observe sales over store lifespan.
+
+7. **Explore product shelf visibility**  
+   - Evaluate `Item_Visibility` to understand the effect of shelf placement on sales.
 
 ---
 
 ## 🧰 Tools & Technologies
 
-- **Power BI** – For data visualization and dashboard creation  
-- **SQL** – For data querying and analysis  
-- **Excel / CSV** – For data preprocessing  
-- **PowerPoint** – For reporting and presentation
+- **Excel / CSV** – Raw dataset and initial cleaning  
+- **SQL** – Used for in-depth data exploration  
+- **Power BI** – Interactive dashboards and visualizations  
+- **PowerPoint** – Executive summary and insights presentation
 
 ---
 
 ## 📊 Dashboard Preview
 
-![Dashboard Preview](Dashboard.png)
+![Dashboard Preview](https://github.com/yassin-saleh/Blinkit-Analysis/raw/main/Blinkit%20Analysis/Dashboard.png)
 
 ---
 
 ## 📌 Key Insights
 
-- Top-performing product categories
-- Customer demand trends across time periods
-- Behavior patterns of returning vs new customers
-- Recommendations for operational optimization
+- Top-performing and low-performing products
+- Sales distribution by fat content, item type, outlet type, and location
+- Impact of outlet size and age on sales performance
+- Average rating and visibility analysis for quality tracking
 
 ---
 
 ## 🚀 How to Use This Project
 
-1. Review the cleaned dataset in `BlinkIT Grocery Data cleaned.csv`
-2. Run the SQL queries in `Blinkit Analysis.sql` on your database
-3. Open `Blinkit.pbix` in Power BI to explore the interactive dashboard
-4. Check `Blinkit Analysis.pptx` for a summarized presentation of the findings
+1. Start with `BlinkIT Grocery Data cleaned.csv` – the main data source  
+2. Use `Blinkit Analysis.sql` to run queries on your SQL database  
+3. Open `Blinkit.pbix` in Power BI to explore interactive insights  
+4. Review the `Blinkit Analysis.pptx` for a concise summary  
 
 ---
 
 ## 👨‍💻 Author
 
-- **Your Name**  
+- **Yassin Saleh**  
 - 📧 [your.email@example.com]  
-- 🌐 [LinkedIn or GitHub profile link]
+- 🌐 [GitHub: yassin-saleh](https://github.com/yassin-saleh)
 
 ---
 
 ## 📄 License
 
-This project is open-source and intended for educational and analytical purposes. Feel free to use or modify it.
+This project is open-source and intended for educational, academic, and analytical use. Feel free to adapt or expand on it.
